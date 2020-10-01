@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/contacto.css">
+	<title>Cocina</title>
+	<link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div id="contenedor">
+			<div id="marca">
+				<img src="img/Logo-svg.svg" id="logo">
+				<div id="titulo">
+					<h1>Cocinando con amor</h1>
+					<h3>COMIDA CASERA</h3>
+				</div>
+				</div>
+					<div id="redes" >
+					<a href="https://www.instagram.com/giselaflores.cocina"><img src="img/Logo-redes/Instagram.svg" class="iconos" ></a>
+					<a href="https://www.facebook.com/GiselaFlores.cocina"><img src="img/Logo-redes/Facebook.svg" class="iconos" ></a>
+					<a href="https://www.youtube.com/user/Giselaflores17/videos"><img src="img/Logo-redes/Youtube.svg" class="iconos" ></a>
+					<a href="https://twitter.com/giselaflores17"><img src="img/Logo-redes/Twiter.svg" class="iconos" ></a>
+					<a href="https://www.pinterest.es/Giselaflorescocina/"><img src="img/Logo-redes/Pinterest.svg" class="iconos" ></a>
+					<a href="https://www.tiktok.com/@giselaflores.cocina?lang=es&sender_device=pc&sender_web_id=6878360911704032774&is_from_webapp=1"><img src="img/Logo-redes/Tic-Toc.svg" class="iconos" ></a>
+					<a href="mailto:contacto@cocinandoconamor.com"><img src="img/Logo-redes/Mail.svg" class="iconos" ></a>
+					<a href="home.html"><i class="fas fa-search" id="iconosearch"></i></a>
+				</div>
+			</div>	
+		<div id="box2">
+			<nav id="menu">
+				<a href="home.html" class="botones" >HOME</a>
+				<a href="recetas.html" class="botones" >RECETAS</a>
+				<a href="videos.html" class="botones" >VIDEOS</a>
+				<a href="contacto.html" class="botones" >CONTACTO</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id="portada">
+			<div class="animacion"> 
+				<a href="home.html" id="titulo-portada-home"> 
+					<h2>CONTACTO</h2>
+				</a>
+			</div>
+		</section>
+
+		<section id="quiensoy">
+			<article id="articulo1">
+				<div id="contenedortitulo">
+					<h3 class="tituloquiensoy">Contacto</h3>
+				</div>
+			</article>
+		</section>	
+
+		<section id="formulario">
+			<article>
+				<form>
+						<div  class="cajasform" id="caja1">
+							<div class="caja1-2">
+								<label for="nombre">Nombre:</label>
+								<input type="text" name="nombre" id="nombre" required placeholder="Ingrese su nombre" autofocus>
+							</div>
+							<div class="caja1-2">
+								<label for="apellido">Apellido:</label>
+								<input type="text" name="apellido" id="apellido" required placeholder="Ingrese su apellido" >
+						    </div>
+						</div>
+
+						<div class="cajasform">
+							<label for="mail">Correo electronico:</label>
+						    <input type="email" name="mail" id="mail" required placeholder="Ingrese su correo">
+						</div>
+
+						<div class="cajasform">
+							<label for="tel">Teléfono:</label>
+						    <input type="tel" name="tel" id="tel" required placeholder="Coloque codigo de area">
+						</div>
+
+						<div class="cajasform">
+							<label for="nacimiento" class="formatolabel">Fecha de nacimiento:</label>
+							<input type="date" name="nacimiento" id="nacimiento" required placeholder="Ingrese su fecha de nacimiento">
+						</div>
+
+						<div class="cajasform">
+							<label for="provincia">País:</label>
+							<select name="provincia" id="provincia" required>
+								<option value="1" selected>Argentina</option>
+								<option value="2">Bolivia</option>						
+								<option value="10">Brazil</option>
+								<option value="9">Chile</option>
+								<option value="3">Colombia</option>						
+								<option value="7">Ecuador</option>
+								<option value="6">Mexico</option>
+								<option value="4">Paraguay</option>
+								<option value="5">Uruguay</option>
+								<option value="8">Venezuela</option>
+								<option value="11">Otro</option>
+							</select>
+						</div>
+
+						<div class="cajasform">
+							<label for="provincia">Selecciona el motivo de tu consulta:</label>
+							<select name="provincia" id="provincia" required>
+								<option value="1" selected>Recetas</option>
+								<option value="2">Productos elaborados</option>						
+								<option value="10">Productos envasados</option>
+								<option value="9">Problemas de acceso a la web</option>
+								<option value="3">Viandas</option>						
+								<option value="7">Revista</option>
+								<option value="6">Libro digital de recetas</option>
+								<option value="4">Como comprar por la web</option>
+								<option value="5">Eventos</option>
+								<option value="8">Información general del plan de alimentación</option>
+								<option value="11">Otro</option>
+							</select>
+						</div>
+
+						<div class="cajasform" id="caja7">
+							<label for="consulta">Dejame tu comentario aquí:</label>
+							<textarea name="consulta" id="consulta" required placeholder="Describe el motivo de su consulta" rows="4" cols="50">
+							</textarea>
+						</div>
+
+						<div id="titulocheck">
+							<p>Marca las opciones que te interesan conocer:</p>
+						</div>
+
+						<div class="cajasform" id="caja8">
+							<div id="check1">
+								<div><input type="checkbox" name="newletter" id="checkitem">Panes</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Galletitas</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Postres</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Carnes</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Pastas</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Pizzas</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Frituras</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Snacks</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Comida Gourmet</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Comida Keto</div>
+							</div>
+							<div id="check2<div>">
+								<div><input type="checkbox" name="newletter" id="checkitem">Comida sin Tacc</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Comida baja en sodio</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Comida sin azucar</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Batidos</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Sandwiches</div>	
+								<div><input type="checkbox" name="newletter" id="checkitem">Tortas</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Dulces y golosinas</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Chocolate</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Salados</div>
+								<div><input type="checkbox" name="newletter" id="checkitem">Comida familiar</div>							
+							</div>	
+						</div>
+
+						<div class="cajasform">
+							<label for="terminos">Sucríbete y recibe recetas exclusivas:</label>
+							<input type="checkbox" name="newletter" id="newletter" >recibir newletter
+						</div>	
+
+						<div class="cajasform">
+							<input type="checkbox" name="terminos"  required checked><a href="politicas.html" class="terminos">Acepta los terminos y condiciones</a> 
+						</div>
+
+						<div class="cajasform" id="botones">
+							<div><input type="submit" name="enviar" value="Enviar"></div>
+						    <div><input type="reset" name="borrar" value="Borrar"></div>
+						</div>
+		    	</form>
+			</article>
+		</section>	
+
+<!--	<section>
+			<article id="textocontacto">
+		    	<div>
+			    	<p>Dejanos tus datos y consulta para poder ayudarte, recuerda que puedes realizar cualquier tipo de comentario. En breve te responderé, recuerda verificar los horarios de atención y medios alternativos de contacto.</p>
+			    	<p>También puedes visitar mis redes:</p>
+		    	</div>
+
+		    	<div>
+		    	<a href="#"><img src="img/Logo-redes/Instagram.svg" class="iconos" ></a>
+				<a href="#"><img src="img/Logo-redes/Facebook.svg" class="iconos" ></a>
+				<a href="#"><img src="img/Logo-redes/Youtube.svg" class="iconos" ></a>
+				<a href="#"><img src="img/Logo-redes/Twiter.svg" class="iconos" ></a>
+				<a href="#"><img src="img/Logo-redes/Pinterest.svg" class="iconos" ></a>
+				<a href="#"><img src="img/Logo-redes/Tic-Toc.svg" class="iconos" ></a>
+		    	</div>
+		    </article>
+		</section>
+ lo haremos a futuro-->
+
+		<section id="formulario2">
+			<article>
+				<div id="micard">
+					<img src="img/Home/yo.png" alt="Gisela Flores cocinera" class="yo">
+					<h4>"No te olvides de pasar por las recetas y elegir la que más te guste"</h4>
+				</div>
+			</article>
+        </section>
+    </main>
+	<footer>
+		<section id="alineado"></section>
+		<section id="pief">
+			<article id="redesf">
+				<h6>Cocinando con amor</h6>
+				<a href="home.html" class="redesfa">Home</a>
+				<a href="recetas.html" class="redesfa">Recetas</a>
+				<a href="videos.html" class="redesfa">Videos</a>
+				<a href="contacto.html" class="redesfa">Contacto</a>
+				<a href="buscar.html" class="redesfa">Buscar</a>
+			</article>
+			<article id="treeweb">
+				<h6>Redes Sociales</h6>
+				<div class="alinearredes">
+					<a href="https://www.instagram.com/giselaflores.cocina"><img src="img/Logo-redes/Instagram.svg" class="iconos" ></a>
+					<a href="https://www.facebook.com/GiselaFlores.cocina"><img src="img/Logo-redes/Facebook.svg" class="iconos" ></a>
+					<a href="https://www.youtube.com/user/Giselaflores17/videos"><img src="img/Logo-redes/Youtube.svg" class="iconos" ></a>
+				</div>
+				<div class="alinearredes">
+					<a href="https://twitter.com/giselaflores17"><img src="img/Logo-redes/Twiter.svg" class="iconos" ></a>
+					<a href="https://www.pinterest.es/Giselaflorescocina/"><img src="img/Logo-redes/Pinterest.svg" class="iconos" ></a>
+					<a href="https://www.tiktok.com/@giselaflores.cocina?lang=es&sender_device=pc&sender_web_id=6878360911704032774&is_from_webapp=1"><img src="img/Logo-redes/Tic-Toc.svg" class="iconos" ></a>
+				</div>
+			</article>
+			<article id="contactoyhorario">
+				<p class="titulosfooter">Horario de atención:</p>
+				<div class="altolinea">
+					<p class="redesfa">De Lunes a Sábados</p>
+					<p class="redesfa">De 9:00 a 18:00 horas</p>
+				</div>	
+				<p class="titulosfooter">Mail:</p>
+				<p class="redesfa">contacto@cocinandoconamor.com</p>
+			</article>
+			<article id="contactoyhorario2">
+				<p class="titulosfooter">Whatsapp:</p>
+				<p class="redesfa">+54 9 11 56204982</p>
+				<p class="titulosfooter">Web:</p>
+				<a href="contacto.html" class="redesfa">Contacto</a>
+			</article>
+		</section>
+		<section >
+			<article id="copyright">
+				<p>Copyright ©</p>
+				<a href="home.html" class="redesfa">Cocinando con amor ®</a>
+			</article>
+		</section>
+	</footer>
+</body>
+</html>
+

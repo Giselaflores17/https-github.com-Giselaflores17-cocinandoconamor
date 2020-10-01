@@ -1,0 +1,108 @@
+body {background-image: url('../img/fondo.jpg'); repeat;
+	 font-family: 'Noto Sans JP', sans-serif;
+	 margin: 0px;
+}
+
+/* Estilo del h1*/
+#inicio {text-align: center;
+		 color: #faf0e6;
+		 background-color: #5c4328;
+		 font-family: 'Noto Sans JP', sans-serif;
+		 font-weight: normal;
+		 height: 3em;
+		 line-height: 3em;
+		 border-bottom: 0.15em solid #261b10;
+		 margin-top: 0px;
+		 font-size: 2em; 
+}
+
+/* Profe: no se en que esta pisandome el codigo para que cuando quiero agrandar la letra con el font-size, 
+la caja(marco marron) no se agrande, tengo que ponerle un formato fijo?*/
+/* estilo del main*/
+
+
+main{margin: auto;
+	 width: 950px;
+
+}
+
+h2{color: #261b10;
+   border-bottom: 0.15em dotted #5c4328;
+   font-size: 1.6em;
+}
+
+.comentario{margin-left: 1.5em;
+			color: #1f160d;
+			text-align: justify;
+			font-size: 0.9em;
+
+}
+
+h3{color: #faf0e6;
+   border: 0.15em solid #5c4328;
+   width: 15em;
+   background-color:#5c4328;
+   padding-left: 0.8em;
+   font-weight: 300;
+   height: 1.8em;
+   line-height: 1.8em; 
+   margin-top: 2em;
+   margin-bottom: 1.5em;
+
+}
+
+ul li{font-size: 0.9em;
+	  color: #261b10;
+	  line-height: 1.5em;
+
+}
+
+/* Profe: como modifico las viñetas en tamaño sin alterar el tamaño del texto, lo mismo para el color, no pude dividirlo los formatos,
+probe de varias formas pero se me modifican las dos cosas, no toque el html lo use como estaba, yo capaz le hubiera puesto un contenedor 
+al texto de cada li para aplicarle una clase, seria lo correcto para aplicar los diferentes formatos o es un modo muy anti-diseño jajaja?*/
+
+ol li{font-size: 0.9em;
+	  color: #261b10;
+	  line-height: 1.5em;
+	  text-align: justify;
+
+}
+
+.arriba{text-align: right;
+	    margin-top: 2em;
+
+}
+
+.arriba a{font-size: 1em;
+	      color: #261b10;
+		  font-style: italic;
+		  text-decoration: none;
+		  font-weight: bold;
+}
+
+
+
+/* Pie de pagina*/
+footer {background-color: #5c4328;
+		height: 3em;
+		line-height: 3em;
+		border-top: 0.15em solid #261b10;
+
+}
+
+footer p{font-family: 'Noto Sans JP', sans-serif;
+		 font-weight: normal;
+		 text-align: center;
+		 color: #faf0e6;
+		 font-size: 0.8em;
+		 margin-top: 0px;
+}
+
+footer a{font-family: 'Noto Sans JP', sans-serif;
+		 font-weight: normal;
+		 color: #faf0e6;
+		 font-size: 1em;
+		 text-decoration: none;
+		 font-style: italic;
+}
+

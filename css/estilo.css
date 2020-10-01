@@ -1,0 +1,152 @@
+body {background-color: #2e2e1f;
+	/*  background: url('../img/fondo/madera6.jpg');*/
+	  background-size: cover;
+	  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* Estilos de header*/
+
+header{width: 80%;
+	   margin: auto;
+	   display: flex;
+	   flex-direction: column;
+	   align-items: center;
+}
+
+
+/*=============================================
+=       Flex y Propiedades de redes            =
+=============================================*/
+			
+/*=====  Propiedades de los elementos  ======*/
+
+.iconos{width: 2em;
+
+}
+
+
+div#redes a{display: inline-block;
+			margin-left: 1em;
+			padding: 10px;
+
+}
+
+/*=====  Flexbox de redes  ======*/
+
+#redes{width: 92.2%;
+	   display: flex;
+	   flex-direction: row;
+	   flex-wrap: nowrap;
+	   justify-content: center;
+	   padding-right: 1em;
+	   align-items: center;
+	   margin-top: 50px;
+	   background-color: #4C4C39;
+	
+}
+
+/*=============================================
+=                   MAIN                       =
+=============================================*/
+
+/*=====  Section 1 Portada  ======*/
+
+#portada{width: 75%;
+		 height: 29em;
+		 background-image: url(../img/fondo/fondowp2.jpg);
+		 background-size: cover;
+		 margin: auto;
+		 margin-top: 4px;
+		 padding-top: 10px;
+
+
+}
+
+#logoanimado{width: 180px;
+			 display: inline-block;
+			 margin-top: 20%;
+
+}
+
+
+.transition{
+		    width: 200px;
+		    height: 200px;
+		    background: /*rgba(250, 240, 230, 0.4);*/ rgba(46, 46, 31, 0.5);
+		    transition: width 2s, height 2s, margin 2s;
+		    margin: 50px auto 0;
+		    border-radius: 100px;
+		    display: flex;
+		    flex-direction: row;
+			flex-wrap: nowrap;
+		    justify-content: center;	
+			align-content: center;	
+			align-items: stretch;
+
+}
+.transition:hover{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 0px;
+}
+
+/*=====  Section 1 Bienvenida  ======*/
+
+div#bienvenida a{display: inline-block;
+				 margin: auto;
+				 width: 20%;
+				 height: 50%;
+				 text-decoration: none;
+				 color:rgba(250, 240, 230, 0.7);
+				 font-size: 1em;
+				 font-weight: normal;
+				 text-align: center;
+
+}
+
+
+div#bienvenida h1{display: inline-block;
+				  margin: auto;
+				  width: 100%;
+				  height: 50%;
+				  color: #fff;
+				  font-size: 3.5em;
+				  font-weight: bold;
+				  text-align: center;		
+				  font-family: 'Dancing Script', cursive;	
+				  margin-bottom: 4%;  
+				  background-color:  rgba(46, 46, 31, 0.5);
+
+}
+
+#bienvenida{display: flex;
+		    flex-direction: column;
+			flex-wrap: wrap;
+		    justify-content: center;	
+			align-content: center;	
+			align-items: stretch;
+			padding-top: 5%;
+
+
+}
+
+@media screen and (min-width: 771px) and (max-width: 950px){
+
+	
+}
+
+@media screen and (min-width: 481px) and (max-width: 770px){
+
+	
+}
+
+@media screen and (min-width: 100px) and (max-width: 480px){
+
+#redes{display: none;
+
+div#bienvenida h1 { font-size: 2.5em; }
+
+}
+
+	

@@ -1,0 +1,480 @@
+body {background-image: url(../img/fondo/fondo.jp) repeat-x;
+	  background-color: #2e2e1f;
+	 font-family: 'Noto Sans JP', sans-serif;
+	 margin: 0;
+}
+
+/* Estilos de header*/
+
+header{width: 100%;
+	   margin: auto;
+	   display: flex;
+	   flex-direction: column;
+	   margin-top: 2em;
+}
+
+/*=============================================
+=       Flex y Propiedades de redes            =
+=============================================*/
+			
+/*=====  Propiedades de los elementos  ======*/
+.iconos{width: 2em;
+
+}
+
+div#redes a{display: inline-block;
+			margin-left: 1em;
+}
+
+/*=====  Flexbox de redes  ======*/
+
+#redes{width: 50%;
+	   display: flex;
+	   flex-direction: row;
+	   flex-wrap: nowrap;
+	   justify-content: flex-end;
+	   padding-right: 1em;   
+	   align-items: center;
+}
+
+/*=============================================
+=     Flex de Contenedor= redes + menu        =
+=============================================*/
+
+#contenedor{width: 100%;
+			display: flex;
+			flex-direction: row;
+	  	    flex-wrap: nowrap;
+	        justify-content: center;	
+	        align-content: center;
+	        align-content: center;	
+}
+
+/*=============================================
+=               Flex de marca                 =
+=============================================*/
+
+#logo{width: 8em;
+	  display: inline-block;
+	  padding-left: 1em;
+}		
+
+h1{font-family: 'Dancing Script', cursive;
+   font-size: 2.8em;
+   color: #faf0e6;
+   padding-left: 0.5em;
+   display: inline-block;
+   margin: 0px;
+}	
+
+h3{font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 1em;
+   color: #faf0e6;
+   display: inline-block;
+   margin: 0px;
+   padding-left: 1.5em;
+}	
+
+#titulo{display: flex;
+	    flex-direction: column;
+	    flex-wrap: nowrap;
+	    justify-content: center;	
+	    align-content: center;	
+	    height: 100%;
+}
+
+/*=====  Flex contenedor  ======*/
+
+#marca{width: 100%;
+	   display: flex;
+	   flex-direction: row;
+	   flex-wrap: nowrap;
+	   justify-content: flex-start;	
+	   align-content: center;	
+}
+
+/*=====  Propiedades de los elementos  ======*/
+
+.botones{display: inline-block;
+		 text-decoration: none;
+		 color: #faf0e6;
+		 font-weight: normal;
+		 width: 25%;
+		 text-align: center;
+		 font-size: 1.2em;
+		 line-height: 2.5em;
+
+}
+
+a.botones:hover{background-color: rgba(250, 240, 230, 0.7);
+				color: #2e2e1f;
+			    font-weight: bold;
+} 
+
+/*=====  Flex de menu de navegacion  ======*/
+
+#menu {width: 100%;
+	   display: flex;
+	   flex-direction: row;
+	   flex-wrap: nowrap;
+	   justify-content: center;	
+	   align-items: center;	
+	   margin-top: 2em;
+	   background-color: rgba(94, 94, 66, 0.5)
+}
+
+#box2{width: 100%;
+	   display: flex;
+	   flex-direction: column;
+	   flex-wrap: nowrap;
+	   justify-content: center;	
+	   align-content: center;	
+	   box-sizing: border-box;
+}
+
+#portada{width: 100%;
+		 height: 27em;
+		 background-image: url(../img/fondo/fondowp2.jpg);
+		 background-size: cover;
+		 margin: auto;
+		 margin-top: 4px;
+		 padding-top: 10px;
+}
+
+#logoanimado{width: 180px;
+			 display: inline-block;
+			 margin-top: 20%;
+}
+
+.animacion  {width: 200px;
+    	     height: 200px;	 
+    	     background: rgba(46, 46, 31, 0.5);
+    	     transition: width 2s, height 2s, margin 2s;
+    	     margin: 70px auto 0;
+    	     border-radius: 100px;
+    	     display: flex;
+    	     flex-direction: row;
+		     flex-wrap: nowrap;
+		     justify-content: center;	
+		     align-content: center;	
+		     align-items: stretch;	     
+}
+
+a#titulo-portada-home h2{color: #faf0e6;
+						 text-decoration: none;
+						 text-align: center;
+						 font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+a#titulo-portada-home{text-decoration: none;
+					  display: inline-block;
+					 margin: auto;
+					 width: 100%;
+					 font-size: 1.4em;
+					 font-weight: normal;
+					 text-align: center;
+}
+
+#quiensoy{width: 80%;
+		  margin: auto;
+		  margin-top: 0.3em; 
+		  margin-bottom: 3em;
+		  
+}
+
+#articulo1{width: 100%;
+}
+
+.tituloquiensoy{font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 3em;
+   color: #faf0e6;
+   font-weight: normal;
+   padding: 0;
+   width: 100%;
+   text-align: center;
+}
+
+/* Flex del titulo */
+
+#contenedortitulo{display: flex;
+                  width: 100%;
+    	          display: flex;
+    	          flex-direction: column;
+		          flex-wrap: nowrap;
+		          justify-content: center;	
+		          align-content: all;	
+		          align-items: center;	
+		          margin: auto; 
+		          margin-top: 3em;
+		          padding: 1em 0;
+		          background-color:rgba(94, 94, 66, 0.5);		          
+}
+
+/* fijo en todas*/
+/*===========================================================================================================
+=                                            FIN DE LA CABECERA                                              =
+===========================================================================================================*/
+
+/*==============================================================================================================
+=                                                  MAIN
+===============================================================================================================*/
+
+/*Formulario central*/
+
+#formulario{width: 80%;
+			margin: auto;
+	
+}
+
+						
+
+}
+
+#textocontacto{width: 50%;
+			   padding: 1em;
+			   text-align: justify;
+
+}
+
+form{margin: 1em;
+	 background-color: rgba(94, 94, 66, 0.5);
+	 width: 80%;
+	 padding: 1em;
+	 color: rgba(250, 240, 230, 0.3);
+	/* color: #2e2e1f;*/
+	 font-size: 1.2em;
+	 margin: auto;
+
+}
+
+
+.cajasform{display: block;
+		   margin: 2em 2em;
+
+}
+
+
+#caja1{display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;	
+		align-content: space-around;	
+
+}
+
+.caja1-2{width: 50%;
+
+}
+
+#caja7{display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;	
+		align-content: space-around;
+		padding-bottom: 1em;
+
+}
+
+.checkitem{display: block;}
+
+#caja8{display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;	
+		align-content: space-around;
+		width: 100%;	
+		padding-left: 0;
+		margin-left: 0;
+
+}
+
+#check1, #check2{width: 40%;
+				 display: flex;
+				 flex-direction: column;
+				 padding: 0;
+				 justify-content: space-between;
+			/*	 border: 1px solid #000;*/
+
+}
+
+.terminos{color: rgba(250, 240, 230, 0.3);
+
+}
+
+#botones{display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: center;		
+}
+
+div#botones div{margin: 1em;}
+
+#titulocheck{margin-left: 2em;
+
+}
+
+#textocontacto{display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		width: 50%;
+		border: 1px solid #000;
+
+}
+
+/*=====  Fin main  ======*/
+
+/*===========================================================================================================
+=                                        LEYENDA TIP ANTES DEL FOOTER                                            =
+===========================================================================================================*/
+/* fijo en todas*/
+
+.yo{width: 30%;
+
+}
+
+h4{font-family: 'Dancing Script', cursive;
+   font-size: 2em;
+   color: #faf0e6;
+   display: inline-block;
+   margin: 0px;
+   font-weight: normal;
+   padding-top: 1em;
+   text-align: center;
+}
+
+/* Flex de mi card */
+
+#micard{width:50%;
+    	display: flex;
+    	flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;	
+		align-content: center;	
+		align-items: center;	
+		padding: 1em;	
+		margin: auto; 
+		margin-top: 2em;   
+		margin-bottom: 2em;
+}
+
+
+
+
+/*===========================================================================================================
+=                                                   FOOTER                                                 =
+===========================================================================================================*/
+/* fijo en todas*/
+
+footer{width: 100%;
+	   display: flex;
+	   flex-direction: column;
+	   flex-wrap: nowrap;
+	   justify-content: flex-start;	
+	   align-content: center;	
+	   align-items: stretch;
+	   background-color: rgba(94, 94, 66, 0.5);
+	   height: 20em;
+	  
+}
+
+#pief{display: flex;
+	  flex-direction: row;
+	  flex-wrap: nowrap;
+	  justify-content: flex-start;	
+	  align-content: stretch;		
+	   width: 100%;
+	   margin: 0;
+	   padding: 0;
+}
+
+#redesf, #treeweb, #contactoyhorario, #contactoyhorario2{display: flex;
+														    flex-direction: column;
+														    flex-wrap: nowrap;
+														    justify-content: all;	
+														    align-content: center;	
+														    align-items: center;	
+														    width: 25%;
+														    border-right: 0.5px solid #2e2e1f;
+														    padding-top: 0;
+														    height: 100%;
+}
+
+#contactoyhorario{border: none;
+				  padding-top: 1em;					
+}
+
+#contactoyhorario2{padding-top: 1em;}
+
+
+h6{font-weight: 200;
+	text-decoration: underline;
+	color: #faf0e6;
+	font-size: 1.5em;
+	font-family: 'Tajawal', sans-serif;
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+
+}
+
+.redesfa{ 
+			text-decoration: none;
+			color: #faf0e6;
+			font-size: 1.2em;
+			font-family: 'Tajawal', sans-serif;
+			line-height: 2em;
+			padding-bottom: 0;
+			margin-bottom: 0;
+
+}
+
+p.redesfa, article#contactoyhorario2 a.redesfa{font-size: 0.9em;
+
+}
+
+a.redesfa{line-height: 1.5em;}
+
+.titulosfooter{	color: #faf0e6;
+				font-size: 1.5em;
+				font-family: 'Tajawal', sans-serif;
+				text-decoration: underline;
+				line-height: 0.1em;
+
+}
+
+#bajar{margin-bottom: 1.9em;
+
+}
+
+#alineado{width: 100%;
+		  height: 3em;
+		  background-color: #2e2e1f;
+
+}
+
+#copyright{border-top: 3px solid #838b75;
+		   background-color: #2e2e1f;
+
+}
+
+.alinearredes{margin-top: 2em;
+			  margin-bottom: 1em;
+
+}
+
+div.altolinea p{line-height: 1em;
+
+}
+
+/* Section 2 footer copyright */
+
+#copyright{display: flex;
+														    flex-direction: row;
+														    flex-wrap: nowrap;
+														    justify-content: center;	
+														    align-content: center;	
+														    align-items: center;
+}
+
+article#copyright p{padding-right: 1em;}
